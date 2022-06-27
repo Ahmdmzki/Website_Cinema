@@ -1,3 +1,20 @@
+<style>
+
+  .footer{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  a {
+    margin-left:0;
+
+  }
+</style>
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -34,7 +51,7 @@
           <input type="submit" class="btn btn-danger btn-lg" value="Masuk" name="login">
         </form>
         </div>
-        <div class="panel-footer">
+        <div class="footer">
           <a href="<?=base_url('index.php/website/register')?>">Belum Punya Akun? Daftar</a>
           <h5 class="panel-title">Copyright &copy; 2022 All rights reserved</h5>
         </div>

@@ -1,4 +1,22 @@
-<div class="page-header">
+<style>
+
+  .header{
+    display: flex;
+    align-items: center;
+  
+    width: 100vw;
+    flex-direction: column;
+  }
+
+  .header h1{
+    margin: 0;
+  }
+
+
+</style>
+
+
+<div class="page-header header">
     <h1 class="bounceInDown">CINEMA 21</h1>
 </div>
 
